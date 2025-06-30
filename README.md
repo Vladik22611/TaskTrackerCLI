@@ -1,4 +1,4 @@
-# TaskTracer CLI  / Клини для управления задачами 
+# TaskTracer CLI  / CLI для управления задачами 
 
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md)
 [![Russian](https://img.shields.io/badge/Язык-Русский-red)](README.md)
@@ -19,6 +19,86 @@ TaskTracer CLI is a simple command-line task manager that helps you organize you
 1. Make sure you have [Go installed](https://golang.org/dl/)
 2. Clone the repository:
    ```bash
+   git clone https://github.com/Vladik22611/TaskTracerCLI.git
+   cd TaskTracerCLI
+   ```
+3. Build and run:
+    ```bash
+   go build -o tasktracercli
+   ./tasktracercli
+   ```
+### Quick start 
+   ``` bash
+   # Add a new task
+   task-cli add "Buy groceries"
+   
+   # List all tasks
+   task-cli list
+   
+   # Mark task as in progress
+   task-cli mark-in-progress 1
+   
+   # Delete a task
+   task-cli delete 1
+   ```
+### Full Command List
+``` text
+add <description>      Add new task
+list [status]         List tasks (filter by status)
+update <ID> <desc>    Update task description
+delete <ID>           Delete a task
+mark-in-progress <ID> Change status to 'in progress'
+mark-done <ID>        Mark task as done
+help                  Show help
+exit                  Exit program
+```
+## 🇷🇺 Русская версия
+### Описание
+TaskTracer CLI - это простой менеджер задач для командной строки, помогающий эффективно организовывать ежедневные задачи.
+
+### Возможности
+- Добавление, изменение, удаление задач
+- Изменение статуса (todo/in progress/done)
+- Фильтрация задач по статусу
+- Хранение данных в JSON-файле
+- Цветной интерфейс в консоли
+
+## Установка
+1. Установите [Go](https://golang.org/dl/)
+2. Клонируйте репозиторий:
+   ```bash
    git clone https://github.com/yourusername/TaskTracerCLI.git
    cd TaskTracerCLI
    ```
+3. Запустите программу:
+    ```bash
+   go build -o tasktracercli
+   ./tasktracercli
+   ```
+## Быстрый старт
+```bash
+# Добавить задачу
+task-cli add "Купить продукты"
+
+# Показать все задачи
+task-cli list
+
+# Изменить статус задачи
+task-cli mark-in-progress 1
+
+# Удалить задачу
+task-cli delete 1
+```
+## Все команды
+```text
+add <описание>       Добавить задачу
+list [статус]       Список задач (фильтр по статусу)
+update <ID> <опис>  Изменить описание
+delete <ID>         Удалить задачу
+mark-in-progress <ID> Статус "в работе"
+mark-done <ID>      Статус "завершено"
+help                Справка
+exit                Выход
+```
+
+   
