@@ -1,8 +1,11 @@
 # TaskTracer CLI  / CLI для управления задачами 
 
-[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
-[![Russian](https://img.shields.io/badge/Язык-Русский-red)](README.md)
+<div align="center">
+  <a href="#english-version"><img src="https://img.shields.io/badge/English-🇬🇧-blue?style=for-the-badge" alt="English"></a>
+  <a href="#русская-версия"><img src="https://img.shields.io/badge/Русский-🇷🇺-red?style=for-the-badge" alt="Russian"></a>
+</div>
 
+<a id="english-version"></a>
 ## English Version
 
 ### Description
@@ -52,6 +55,7 @@ mark-done <ID>        Mark task as done
 help                  Show help
 exit                  Exit program
 ```
+<a id="русская-версия"></a>
 ## 🇷🇺 Русская версия
 ### Описание
 TaskTracer CLI - это простой менеджер задач для командной строки, помогающий эффективно организовывать ежедневные задачи.
