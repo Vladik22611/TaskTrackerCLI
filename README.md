@@ -1,12 +1,16 @@
 # TaskTracer CLI  / CLI для управления задачами 
 
-<div align="center">
-  <a href="#english-version"><img src="https://img.shields.io/badge/English-🇬🇧-blue?style=for-the-badge" alt="English"></a>
-  <a href="#русская-версия"><img src="https://img.shields.io/badge/Русский-🇷🇺-red?style=for-the-badge" alt="Russian"></a>
-</div>
+[![English](https://img.shields.io/badge/English-🇬🇧-blue?style=flat-square)](README.md#english-version)
+[![Русский](https://img.shields.io/badge/Русский-🇷🇺-red?style=flat-square)](README.md#русская-версия)
+
+## Tech Stack
+![Go](https://img.shields.io/badge/Go-1.20+-00ADD8?style=flat-square&logo=go)
+![JSON](https://img.shields.io/badge/JSON-Data_Storage-000000?style=flat-square&logo=json)
+![CLI](https://img.shields.io/badge/CLI-Interface-4EAA25?style=flat-square&logo=terminal)
+
 
 <a id="english-version"></a>
-## English Version
+## 🇬🇧 English Version
 
 ### Description
 TaskTracer CLI is a simple command-line task manager that helps you organize your daily tasks efficiently.
